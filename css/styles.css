@@ -1,0 +1,79 @@
+:root {
+  --main-color: #4b4f51;
+  --accent-color: #fb4c47;
+  --second-color: #fa5652;
+  --title-color: #035755;
+}
+
+@font-face {
+  font-family: 'Gelion';
+  src: url('../fonts/Gelion/Gelion-Regular.eot');
+  src: url('../fonts/Gelion/Gelion-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gelion/Gelion-Regular.woff') format('woff'),
+    url('../fonts/Gelion/Gelion-Regular.ttf') format('truetype'),
+    url('../fonts/Gelion/Gelion-Regular.svg#Gelion-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gelion';
+  src: url('../fonts/Gelion/Gelion-Medium.eot');
+  src: url('../fonts/Gelion/Gelion-Medium.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Gelion/Gelion-Medium.woff') format('woff'),
+    url('../fonts/Gelion/Gelion-Medium.ttf') format('truetype'),
+    url('../fonts/Gelion/Gelion-Medium.svg#Gelion-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gelion';
+  src: url('../fonts/Gelion/Gelion-SemiBold.eot');
+  src: url('../fonts/Gelion/Gelion-SemiBold.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Gelion/Gelion-SemiBold.woff') format('woff'),
+    url('../fonts/Gelion/Gelion-SemiBold.ttf') format('truetype'),
+    url('../fonts/Gelion/Gelion-SemiBold.svg#Gelion-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gelion';
+  src: url('../fonts/Gelion/Gelion-Bold.eot');
+  src: url('../fonts/Gelion/Gelion-Bold.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Gelion/Gelion-Bold.woff') format('woff'), url('../fonts/Gelion/Gelion-Bold.ttf') format('truetype'),
+    url('../fonts/Gelion/Gelion-Bold.svg#Gelion-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('../fonts/RedHatDisplay/RedHatDisplay-Bold.eot');
+  src: url('../fonts/RedHatDisplay/RedHatDisplay-Bold.eot#iefix') format('embedded-opentype'),
+    url('../fonts/RedHatDisplay/RedHatDisplay-Bold.woff') format('woff'),
+    url('../fonts/RedHatDisplay/RedHatDisplay-MediumItalic.ttf') format('truetype'),
+    url('../fonts/RedHatDisplay/RedHatDisplay-Bold.svg#RedHatDiplay-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Gelion', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2.15;
+  text-transform: capitalize;
+  color: var(--main-color);
+}
